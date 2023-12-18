@@ -1,0 +1,10 @@
+/* 마이페이지 */
+.mypage-sec .secTit-box {display: flex; align-items: center; justify-content: space-between;}
+.mypage-sec .secTit-box .sec-tit {margin: 0;}
+.mypage-sec .secTit-box .img-box {width: 50px; height: 50px; border-radius: 50%; overflow: hidden;}
+.mypage-sec .secTit-box .img-box img {width: 100%; height: 100%; object-fit: cover;}
+.mypage-sec .info-wrap {margin: 30px 0;}
+.mypage-sec .info-wrap dl ~ dl {margin-top: 20px;}
+.mypage-sec .info-wrap dl dt {color: #666;}
+.mypage-sec .info-wrap dl dd {margin-top: 8px; font-size: 18px; color: #000;}
+.mypage-sec .out-btn {width: 100%; height: 30px; color: #fff; border-radius: 5px; background: #44b6ae;}

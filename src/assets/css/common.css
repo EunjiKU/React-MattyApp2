@@ -1,0 +1,11 @@
+/* app */
+.App {width: 90%; margin: 0 auto; padding-bottom: 100px;}
+
+/*  */
+.sec-tit {position: relative; padding-left: 14px; margin: 40px 0 20px;  font-size: 22px; font-weight: 700; color: #000;}
+.sec-tit::before {content: ""; position: absolute; left: 0; top: calc(50% + 2px); transform: translateY(-50%); width: 6px; height: 24px; border-radius: 2px; background: #44b6ae;}
+.sec:first-child .sec-tit {margin-top: 0;}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+* {font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box;}
